@@ -1,4 +1,6 @@
 def binary_to_octal(element):
+    if element == "0":
+        return "0"
     while len(element) % 3 != 0:
         element = "0" + element
     octalVal = ""
